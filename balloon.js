@@ -15,7 +15,7 @@ const initApp = () => {
             if (balloon_size > explosion_limit) {
                 balloon.textContent = "💥";
                 document.body.removeEventListener("keydown", resize_balloon);
-            }
+            };
         };
 
         // Deflate
